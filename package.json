@@ -1,0 +1,26 @@
+{
+  "name": "vue-pro",
+  "version": "1.0.0",
+  "description": "Learn to use Vue to build open source components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config build/webpack.config.js",
+    "build": "webpack --config build/webpack.config.js --progress"
+  },
+  "author": "chengkj99",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "scss-loader": "0.0.1",
+    "vue": "^2.2.6",
+    "vue-loader": "^11.3.4",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
